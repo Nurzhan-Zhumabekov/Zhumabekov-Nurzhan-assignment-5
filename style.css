@@ -1,0 +1,33 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1, h3 {
+  font-weight: 600;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fff;
+}
+
+.custom-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.btn {
+  transition: 0.25s;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  background-color: #ffffff;
+}

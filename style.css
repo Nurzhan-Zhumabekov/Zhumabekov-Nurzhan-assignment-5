@@ -1,0 +1,39 @@
+body {
+  background: orange;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: 500;
+}
+
+textarea, input, select {
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+.custom-form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form input,
+.custom-form textarea {
+  width: 100%;
+}
